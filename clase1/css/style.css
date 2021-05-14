@@ -1,0 +1,58 @@
+/*programar 10 brackpoint que cambien de color con css3*/
+
+.row{
+  background-color: #ff0000;
+  
+  height: 50px;
+}
+
+@media(max-width:1200px){
+  .row{
+    background-color: #e65151;
+  } 
+}
+@media(max-width:1100px){
+  .row{
+    background-color: #c56c30;
+  } 
+}
+@media(max-width:1000px){
+  .row{
+    background-color: #ebee36;
+  } 
+}
+@media(max-width:900px){
+  .row{
+    background-color: #57e035;
+  } 
+}
+@media(max-width:800px){
+  .row{
+    background-color: #27d89d;
+  } 
+}
+@media(max-width:720px){
+  .row{
+    background-color: #3330c5;
+  } 
+}
+@media(max-width:600px){
+  .row{
+    background-color: #9682ca;
+  } 
+}
+@media(max-width:500px){
+  .row{
+    background-color: #c02dce;
+  } 
+}
+@media(max-width:400px){
+  .row{
+    background-color: #e72ab8;
+  } 
+}
+@media(max-width:300px){
+  .row{
+    background-color: #e44280;
+  } 
+}

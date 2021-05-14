@@ -1,0 +1,21 @@
+@import 'variables';
+%Class_responsive{  
+  background-color: $color-rojo;
+  @media (max-width: 1200px){
+    background-color: $color-amarillo;
+  }
+
+  @media (max-width: 992px){
+    background-color: $color-verde;
+  }
+
+  @media (max-width: 768px){
+    background-color: $color-azul
+  }
+ 
+  @media (max-width: 576px){
+    background-color: $color-rosa;
+  }
+
+  
+}

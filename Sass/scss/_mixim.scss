@@ -1,0 +1,7 @@
+@import 'variable';
+@mixin mix {
+  @media (min-width: #{tamano}) {
+    @content;//tra los archivos que podemos ocupar
+    background-color: blue;
+  }
+}

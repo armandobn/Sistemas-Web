@@ -1,0 +1,19 @@
+%clases{
+  width: 100px;
+  height: 100px;
+}
+
+.caja{
+  @extend %clases;
+  color: rgb(199, 43, 43);
+}
+
+.caja1{
+  @extend %clases;
+  color: rgb(199, 43, 43);
+}
+
+.caja2{
+  @extend %clases;
+  color: rgb(199, 43, 43);
+}

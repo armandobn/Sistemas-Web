@@ -1,0 +1,127 @@
+Las librerias 
+Pueden ser internos o externos
+Resolver un problema
+
+Frameword
+Tienen reglas expesificas
+esta especializado a una solucion
+
+Construir la plantilla de html con los complementos de boostrap
+b4-$
+
+/////////////////
+
+En la dependencia de css de bootstrap significa que es la version minima
+
+los documentos .min (Agilizan las cargas de las fases del cliente)
+(el documento solo tiene una linea pq agiliza la ejecucion a diferencia si es construido 
+por varias lineas que tiene que ejecutar) alijeran el archivo y vaya mas rapido
+
+La diferencia es la construccion del documento, si la estructura sigue solo una linea no afecta en el 
+nombre del documento
+
+-----------------Etiquetas Meta-----------------
+Los metadatos son los que leen los navegadores que nos pueden brindar como:
+-Posicionamiento de la pagina(CEO)
+-Tipo de caracter ocupa
+-Se adapte diferentes tipos de paginas
+metadata
+Keyword
+------------content del meta---------------
+etiqueta, atrabuto, valor
+//Etiqueta Hibrida
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ El ancho va hacer al tamaño del dispositivo-width=device-width
+ el tamañan de un display se mide en vertical
+Para adaptarse a estilos vertial - shrink-to-fit=no
+El comportamiento de la resolucion del contenido
+
+integrity (etiqueta)
+es un protocolo de seguridad
+
+hora-1:20-video
+greed de boostrap
+es una malla compuesta de filas y columnas, una de las tecnologias es flex que puedes
+manipulas y redimencionarlo
+
+
+container- define un espacio de creacion especifico de boostrap
+         -carga el contenido al centro de una gran columna
+
+row- sirven para acomodar nuestro contenido verticalmente
+col- acomodar horizontalmente
+
+
+brakepoint- puntos de ruputura- css3
+redimencion de pantalla son las rupturas
+
+//programar 10 brackpoint que cambien de color con css3
+//
+
+
+-------------Medidas booststrap-----------
+.col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+
+--------------Snipers----------------------
+Snippet- son atajos
+'$1 //Posicion del cursor
+\t //Da tabuladores
+\\$2 escapa signo de pesitos
+escape comportamiento espesifico o ves el formato especifico
+,
+ 		"\\$0"
+
+
+     construir la estructura basica de html5
+
+     aside 
+     nav 
+     footer
+    
+-------------sass----------------------------
+sass css/entrada.scss css/salida.css
+
+sass --watch scss/entrada.scss css/salida.css  //parciales comando para autocopilarse
+
+
+///se le llama modulos
+.boton{
+  color: rgb(198, 218, 18);
+  &:hover{
+    background-color: rgb(125, 9, 202);
+  }
+}
+
+se le conoce como mixim
+
+tarea 
+3 botones con mixmim y tamaño responsivo 
+botones color 
+reponsive cambie el color y tamaña
+
+3 botones con herencia
+
+
+Modelo Vista Controlador MVC
+-Maquetados de html aislados
+-Tambien existen interfaces logicas
+
+Front End (Cliente)
+-GUI(html,PHP,JS) 
+-Vista(html,PHP,JS)
+
+Interface(Logica)
+Ajax(js)
+
+Back End (Servidor)
+-Control(c#, java, php, js)
+-DB
+
+Java Sincroni Page-JSP
+Rutas amigables
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    canvas{
+      border: 1px solid rgba(0,0,255,.5);
+    }
+    body{
+      height: 100vh;
+      display: flex;
+      background: lightcyan;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+  </style>
+
+</head>
+<body>
+  
+  <canvas id="canvas" width="470" height="250">
+  </canvas>
+
+  <script>
+    const canvas = document.querySelector('#canvas');
+    const ctx = canvas.getContext('2d');
+
+    ctx.fillStyle='#d30f0e'; //color relleno
+    ctx.fillRect(30,30,410,190); //dibuja relleno
+    ctx.strokeStyle='rgba(0,0,0,.5)';//color de relleno
+    ctx.lineWidth=5; //borde tamaño
+    ctx.strokeRect(130,50,200,150);//x,y,widht heigt ---dibuja contorno
+
+    ctx.strokeStyle = 'black';
+    ctx.lineWidth=3;
+    ctx.lineTo(200,110); //(x,y)
+    ctx.lineTo(220,140);
+    ctx.lineTo(180,180);
+    ctx.lineTo(255,140);
+    ctx.lineTo(240,110);
+    ctx.lineTo(290,75);
+    ctx.closePath(); //Cierra los puntos echos el punto inicio al ultimo punto echo
+    ctx.fillStyle='#f4c521';//color que vive junto con Fill()
+    ctx.fill();//rellena pero necesita definir color
+    ctx.stroke();//dibuja los puntos echos
+
+    ctx.beginPath();//permite mi dibujo sea independiente de otros
+    
+    ctx.lineWidth=10;
+    const inset = ctx.lineWidth/2; //la mitad sobre el ancho de la linea, compone para que ocupe todo el marco
+
+    const radius=[50,0,50,0];
+    const topLeftRadius=radius[0];
+    const topRightRadius=radius[1];
+    const bottomRightRadius=radius[2];
+    const bottomLeftRadius=radius[3];
+
+    const width= canvas.width;//ocupe el ancho igual al canvas
+    const height= canvas.height;//opuca el largo igual al canvas
+
+    ctx.lineTo(topLeftRadius,inset);
+    ctx.lineTo(width-topRightRadius,inset);
+    ctx.lineTo(width-inset, topRightRadius);
+    ctx.lineTo(width-inset, height-bottomRightRadius);
+    ctx.lineTo(width-bottomRightRadius, height-inset);
+    ctx.lineTo(bottomRightRadius, height-inset);
+    ctx.lineTo(inset, height-bottomLeftRadius);
+    ctx.lineTo(inset, topLeftRadius);
+    ctx.closePath();
+    ctx.stroke();
+
+  </script>
+
+</body>
+</html>

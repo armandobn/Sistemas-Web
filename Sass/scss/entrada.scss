@@ -1,0 +1,29 @@
+@use 'variables';
+@import 'herencia';
+
+body{
+  background-color: variables.$color ;
+}
+
+.boton{
+  color: rgb(198, 218, 18);
+  &:hover{
+    background-color: rgb(125, 9, 202);
+  }
+}
+
+div{
+  .boton{
+    color: rgb(233, 70, 20);
+  }
+}
+
+@media (min-width: varibles.$tamano){
+  .boton{
+    color: rgb(255, 255, 255);
+  }
+}
+
+.col{
+  width: 1280px - 20px; //Se pueden hacer operaciones +,-,/
+}
