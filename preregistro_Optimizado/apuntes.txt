@@ -1,0 +1,58 @@
+app- caracteres generales
+existen 3 protocolos para conectar a bases de datos
+PDO - Puede leer y conectarse cualquier base de datos
+mysql
+mysqli
+
+index
+control general
+
+masterpage
+
+
+
+------------------Esquema de Proyecto Web--------------------------------------
+
+APP
+Documentos de caracter general que pueden ser consummidos en todo el contenido del proyecto
+-Dependencias ()
+-Conexion a base de datos
+
+CONTROL
+Son los controles o manejos logicos de su vista correspondiente
+
+MANAGER
+Hace la comunicacion entre la vista y controlador(jquery/ajax)
+
+RAW
+Contiene los recursos consumibles a la vista
+Contiene los recursos de manera localmente
+-css/ estilos de la vista
+-img/  imagenes
+-js/  jquey
+
+SCHEMA/Db
+El esquema o estructura de tu Base de Datos(DB) para tener 
+un mejor control, manejo y cambios.
+
+VIEW
+Son las vistas al usuario o una entidad
+
+INDEX
+Muestra
+
+
+
+-----------------htaccess----
+
+lenguaje de servidor
+
+RewriteEngine on  //reiscribir las rutas del servidor
+RewriteRule ^([a-zA-Z0-9/_]+)$ index.php?vista_solicitada=$1 //
+
+-----------------------------
+que es tipado debil----son lenguajes que siguen reglas de escrituras debil o no tan estrictas
+-la sintasis no son tan restringidas
+
+------------------
+Tarea contar una historia de 5 hojas
