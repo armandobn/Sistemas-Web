@@ -15,10 +15,7 @@
         
       switch($_GET['vista_solicitada']){
 
-        case 'usuario':{
-          require_once 'view/usuario.php';
-          break;
-        }
+    
 
         default:{
           
@@ -37,7 +34,3 @@
 
 </body>
 </html>
-<?php
-  require_once 'view/modal_login.php';
-  require_once 'view/modal_registro.php';
-?>
