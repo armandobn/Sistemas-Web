@@ -25,4 +25,11 @@
   2.- Mandar por un boton tres ajax y que nos indique de donde provienen<br>
   3.- Mandar por un boton una coleccion de informacion entre varias ubicaciones del lado servidor
 
+8. [Guardar Nombre](https://github.com/armandobn/Sistemas-Web/tree/main/guardarNombre)**:**
+- Ejercicio
+  * Guarde nombre en el servidor que desee
 
+9. [Boton Arreglo](https://github.com/armandobn/Sistemas-Web/tree/main/botonArreglo)**:**
+- Ejercicio
+  * Con solo boton, generar arreglo, condicion forzora arreglar 5 numeros aleatorios y ese arreglo rebotar,
+hacer una structura idonea para presentar ese arreglo.
