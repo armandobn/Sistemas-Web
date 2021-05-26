@@ -33,3 +33,7 @@
 - Ejercicio
   * Con solo boton, generar arreglo, condicion forzora arreglar 5 numeros aleatorios y ese arreglo rebotar,
 hacer una structura idonea para presentar ese arreglo.
+
+10. [Traductor Ingles Colores]()**:**
+- Ejercicio
+  *Hacer un diccionario a traducir colores en ingles, aparte de salir del color escrito, tambien salir deacuerdo al color del texto
