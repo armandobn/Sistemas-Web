@@ -7,8 +7,11 @@
         Iniciar Sesion
       </button>
 
+    
 
     </div>
   </div>
 
 </div>
+
+<?php require_once "view/modal_login.php" ?>
